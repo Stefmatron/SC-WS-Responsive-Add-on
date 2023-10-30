@@ -1,12 +1,17 @@
 body {
   font-family: poppins;
-  background-color: lightgrey;
+  background-color: lightgray;
 
 }
 
 .container {
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.gallery {
+  text-align: center;
+
 }
 
 .grid {
@@ -17,7 +22,6 @@ body {
 
 .mainGrid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
   gap: 50px;
 }
 
@@ -30,6 +34,7 @@ body {
 }
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 
 .grid-2-columns {
@@ -43,6 +48,10 @@ body {
 
 .img-responsive {
   max-width: 100%;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
 }
 
 .card { 
@@ -79,6 +88,7 @@ body {
 section {
   margin: 0 auto;
   padding: 100px;
+  max-width: 100%;
 }
 
 .text-center {
@@ -130,7 +140,7 @@ header a {
   text-transform: uppercase;
   padding: 16px 32px;
   display: inline-block;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 footer {
@@ -245,5 +255,5 @@ footer {
   }
   .embed {
   aspect-ratio: 16/9;
-}
+  }
 }
